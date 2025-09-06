@@ -1,0 +1,6 @@
+String separadores(){
+    return String.format("<<<>>>");}
+separadores()
+separadores("java")
+String separadores(String word){
+    return String.format("<<< %s >>>", word);}

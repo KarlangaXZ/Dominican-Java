@@ -1,0 +1,6 @@
+String saludos(){
+    return "Hola a todos klk!";}
+saludos()
+String SaludoPersonal(String persona){
+    return String.format("Este saludos es para %s", persona);}
+SaludoPersonal("Rosa")

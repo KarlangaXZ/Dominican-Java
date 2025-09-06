@@ -1,0 +1,5 @@
+
+String err3(String who){
+    return String.format("%s, cual es el error?", who);
+}
+err3("de ustedes")
