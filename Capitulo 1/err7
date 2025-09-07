@@ -1,0 +1,4 @@
+err7("A ver")
+String err7(String who) {
+    return format("%s entiendo que no me dara error ya que no especifica el tipo de formato----- justo como pensel al momento de invocar el formato da error ya que no especifica el tipo de formato String ------> attempted to call method err7(String) which cannot be invoked until method format(java.lang.String,java.lang.String) is declared", who);
+}
