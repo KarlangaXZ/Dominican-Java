@@ -1,0 +1,3 @@
+String err4() {
+    return "Este error es disque sutil, pero le falta el punto y coma";
+}

@@ -1,0 +1,3 @@
+String err5() {
+ return   "Este error viene porque le falta return en esta sentencia";
+}

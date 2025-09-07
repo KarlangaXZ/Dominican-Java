@@ -1,0 +1,3 @@
+String err6() {
+    return "Este error vamos a ver que pasas -----> veo que en el ejercicio falta los parentensis despues del nombre de la function, pero me dice que el error: expected punto y coma, hmm que raro";
+}
