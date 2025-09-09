@@ -1,0 +1,4 @@
+String guessTheMovie(String emoji_1, String emoji_2, String emoji_3){
+    return String.format("[%s,%s,%s]",emoji_1,emoji_2,emoji_3);
+}
+guessTheMovie("❄️","⛴️","🧑🏾‍❤️‍💋‍👩🏼")
