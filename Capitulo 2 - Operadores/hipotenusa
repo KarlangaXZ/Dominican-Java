@@ -1,0 +1,4 @@
+double hipotenusa(double a, double b) {
+    return Math.sqrt((a * a) + (b * b));
+}
+hipotenusa(5 , 7)
