@@ -1,0 +1,9 @@
+boolean unicoDigito(int n) {
+    return (n > 0) && (n < 10);
+}
+unicoDigito(9) // true
+unicoDigito(15) // false
+unicoDigito(1) // true
+unicoDigito(5) // true
+unicoDigito(10) // false
+unicoDigito(88) // false
