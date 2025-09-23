@@ -1,0 +1,19 @@
+boolean positivoMenorDe20(int num) {
+    return num > 0 && < 20;
+}
+/*
+|  Error:
+|  illegal start of type
+|      return num > 0 && < 20; 
+
+En Java no puedes dejar solo el operador < 20, 
+necesitas comparar de nuevo con la variable.
+*/
+
+boolean positivoMenorA20(int num) {
+        return num > 0 && num < 20;
+    
+}
+positivoMenorA20(18)
+
+//aqui devuelve true
