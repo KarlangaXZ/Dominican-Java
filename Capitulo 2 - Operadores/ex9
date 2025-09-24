@@ -1,0 +1,7 @@
+boolean esImpar(int n) {
+return (n % 2 != 0);
+}
+esImpar(3)
+esImpar(5)
+esImpar(12)
+esImpar(304)
