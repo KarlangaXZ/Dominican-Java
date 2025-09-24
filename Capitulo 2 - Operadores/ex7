@@ -1,0 +1,5 @@
+String signo(int n) {
+    return (n >=0) ? "no-negativo" : "negativo";
+}
+signo(-3)
+signo(3)
