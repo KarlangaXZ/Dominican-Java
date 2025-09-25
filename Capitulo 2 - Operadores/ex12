@@ -1,0 +1,7 @@
+boolean validarMultiploDe7(int num1) {
+    return num1 % 7 == 0;
+}
+validarMultiploDe7(10)
+validarMultiploDe7(7)
+validarMultiploDe7(14)
+validarMultiploDe7(91)
