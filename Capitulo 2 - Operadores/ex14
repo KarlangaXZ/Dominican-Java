@@ -1,0 +1,9 @@
+double cobro(int pago) {
+    double costo = pago * 10.0;
+    return Math.min(3000.0, Math.max(100.0, costo));
+}
+cobro(1)
+cobro(10)
+cobro(15)
+cobro(90)
+cobro(1000)
