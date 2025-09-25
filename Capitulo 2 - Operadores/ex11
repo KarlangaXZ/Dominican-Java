@@ -1,0 +1,5 @@
+tercerAngulo(45.0,90.0)
+double tercerAngulo(double num1, double num2) {
+    return 180.0 - (num1 + num2);
+}
+tercerAngulo(45.0,90.0)
