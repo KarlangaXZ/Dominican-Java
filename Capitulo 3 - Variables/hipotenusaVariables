@@ -1,0 +1,9 @@
+hipotenusa(4,7)
+double hipotenusa(double num1, double num2) {
+    var cuadradoA = num1 * num2;
+    var cuadradoB = num2 * num2;
+    var sumaDeAmbos = cuadradoA + cuadradoB;
+    return Math.sqrt(sumaDeAmbos);
+}
+hipotenusa(4,7)
+hipotenusa(25,11)
