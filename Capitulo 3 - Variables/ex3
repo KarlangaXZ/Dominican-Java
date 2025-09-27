@@ -1,0 +1,9 @@
+int diferenciaDeCuadrados(int a, int b) {
+    var cuadradoDeA = a * a;
+    var cuadradoDeB = b * b;
+    var diferenciaDeCuadrados = cuadradoDeA - cuadradoDeB;
+    return diferenciaDeCuadrados;
+}
+diferenciaDeCuadrados(3,4)
+diferenciaDeCuadrados(2,2)
+diferenciaDeCuadrados(7,5)
