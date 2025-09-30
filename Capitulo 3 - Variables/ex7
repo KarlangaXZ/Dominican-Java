@@ -1,0 +1,8 @@
+
+double gravedadSuperficialDeLaTierra() {
+    double g = 6.67430e-11;
+    double masa = 5.972e24;
+    double radio = 6.378e6;
+    return g * masa / (radio * radio);
+}
+gravedadSuperficialDeLaTierra()
