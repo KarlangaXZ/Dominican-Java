@@ -1,0 +1,6 @@
+double gravedadSuperficial(double masa, double radio) {
+    double g = 6.67430e-11;
+    return g * masa / (radio * radio);
+}
+gravedadSuperficial(5.97e24, 6.378e6)
+gravedadSuperficial(6.421e23, 3.3972e6)
