@@ -1,0 +1,14 @@
+boolean Triangulo(double a, double b, double c) {
+    double mayor = Math.max(a, Math.max(b, c));
+    double sumaTodos = (a + b + c) - mayor;
+    return max < sumaTodos;
+}
+Triangulo(3.0, 4.0, 5.0)
+boolean triangulo(double a, double b, double c) {
+    double mayor = Math.max(a, Math.max(b, c));
+    double sumaTodos = (a + b + c) - mayor;
+    return max < sumaTodos;
+}
+Triangulo(3.0, 4.0, 5.0)
+triangulo(3.0, 4.0, 5.0)
+double promedio;
