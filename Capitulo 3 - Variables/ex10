@@ -1,0 +1,5 @@
+double ladoDesconocido(double a, double b, double gammaGrados) {
+    double gammaRadianes = Math.toRadians(gammaGrados);
+    double c = Math.sqrt((a * a) + (b * b) - 2 * a * b * Math.cos(gammaRadianes));
+    return c;
+}
