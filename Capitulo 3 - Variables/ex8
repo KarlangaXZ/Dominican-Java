@@ -1,0 +1,12 @@
+double pesoEnMarte(double pesoTierra) {
+    double g = 6.67430e-11;
+    double masaTierra = 5.972e24;
+    double masaMarte = 6.421e23;
+    double radioTierra = 6.378e6;
+    double radioMarte = 3.3972e6;
+    double gravedadSuperTierra = g * masaTierra / (radioTierra * radioTierra);
+    double gravedadSuperMarte = g * masaMarte / (radioMarte * radioMarte);
+    double pesoMarte = gravedadSuperMarte / gravedadSuperTierra;
+    return pesoMarte * pesoTierra;
+}
+pesoEnMarte(80.0)
