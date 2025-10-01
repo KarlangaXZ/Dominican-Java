@@ -8,3 +8,4 @@ Resumen
 ## Temas
 - String
 - Operadores
+- Variables
