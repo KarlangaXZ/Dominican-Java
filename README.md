@@ -9,3 +9,4 @@ Resumen
 - String
 - Operadores
 - Variables
+- String y StringBuilder
