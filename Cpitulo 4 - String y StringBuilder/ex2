@@ -1,0 +1,9 @@
+pluralizar(1, "conteo")
+pluralizar(2, "conteo")
+pluralizar(3, "conteo")
+pluralizar(1, "conteo")
+String pluralizar(int conteo, String s) {
+    return (conteo < 4) ? s : s.format("%d %ss", conteo);
+}
+pluralizar(3, "conteo")
+pluralizar(2, "conteo")
