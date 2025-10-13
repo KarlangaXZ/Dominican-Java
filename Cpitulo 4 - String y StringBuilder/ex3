@@ -1,0 +1,7 @@
+esVocal('a')
+boolean esVocal(char letra) {
+    var letraMinuscula = Character.toLowerCase(letra);
+    return "aeiou".contains(Character.toString(letraMinuscula));
+}
+esVocal('a')
+esVocal('o')
