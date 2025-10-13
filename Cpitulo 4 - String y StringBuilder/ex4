@@ -1,0 +1,10 @@
+String titleCase(String text) {
+        if (text == null || text.isEmpty()) {
+                return text;
+        }
+        var primeraLetra = text.substring(0, 1).toUpperCase();
+        var restoDelText = text.substring(1).toLowerCase();
+        return primeraLetra + restoDelText;
+}
+titleCase("JAVA")
+titleCase("java")
